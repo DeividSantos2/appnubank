@@ -1,0 +1,233 @@
+
+html{
+    font-size: 16px;
+    font-family: "Nunito Sans";
+}
+header{
+    background-color: #820ad1;
+    height: 20vh;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: #ffffff;
+    height: 80vh;
+}
+#header-icones{
+    padding-top: 6vh;
+    height: 7vh;
+    align-items: center;
+    display: flex;
+}
+#header-icones-esquerda{
+    margin-left: 20px;
+    flex: 1;
+}
+.header-icone-esquerda{
+    background-color: #8c1ed5;
+    width:50px;
+    height: 50px;
+    display:block;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+#header-icones-direita{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    gap:20px;
+}
+#header-nome{
+    font-size: 1.2rem;
+    margin-left: 20px;
+    clear:both;
+    height: 7vh;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+}
+
+#header-icones a{
+    color:#ffffff;
+    font-size: 1.8rem;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f4f4fc; 
+    justify-content: center;
+    display: flex;
+    margin-left: 0;
+    padding: 20px;
+}
+
+footer a {
+    font-size:20px;
+    flex: 1;
+    text-align: center;
+    color: 
+    #8d8e92; 
+}
+
+footer a:active {
+    color: #8c1ed5;
+}
+footer a:focus,  
+footer a:hover {
+    color: #8c1ed5;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#main-conta{
+    flex: 1;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+#main-conta h1{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    flex: 1;
+}
+#main-conta i{
+    padding-top: 15px;
+    font-size: 0.7rem;
+    margin-right: 20px;
+    flex: 1;
+    text-align: right;
+}
+#main-saldo{
+    padding-left: 35px;
+    font-size: 0.75rem;
+}
+
+#acoes {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    overflow-x: auto;
+    padding: 10px;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+
+#acoes::-webkit-scrollbar {
+    display: none;
+}
+
+
+#acoes a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#acoes h1 {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+}
+
+.item i {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    background-color: #f0ecec;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#cartoes{
+    height: 50px;
+    gap: 20px;
+    padding: 20px;
+}
+#cartoes a{
+    text-decoration: none;
+    color: inherit;
+}
+#divisao{
+    display: flex;
+    border-radius: 10px;
+    height: 50px;
+    background-color:  #f0ecec;
+}
+
+#divisao i{
+    width: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#divisao h2{
+    font-size: 0.9rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roxo{
+    color: #820ad1;
+}
+
+#dicas {
+    display: flex;
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+#dicas::-webkit-scrollbar {
+    display: none;
+}
+
+.item-dica {
+    font-size: 0.5rem;
+    background-color: #f0ecec;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 70%;
+    max-width: 70%;
+    height: 90px;
+}
+.item-dica h1 {
+    font-size: 0.8rem;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#fatura{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#fatura h1{
+    color: gray;
+    font-size: 15px;
+}
